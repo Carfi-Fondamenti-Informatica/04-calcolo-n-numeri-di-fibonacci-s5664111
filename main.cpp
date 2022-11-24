@@ -8,11 +8,12 @@ int main() {
       cout<<"errore"<<endl;
    }
    else{
-      for(int i=0;i<n;i++);
+      for(int i=0;i<n;i++){
       cout<<a<<endl;
       c=a+b;
       a=b;
       b=c;
+      }
    }
    return 0;
 }
